@@ -1,0 +1,5 @@
+#dependences e virtual env
+/.venv
+
+#config env
+.env
