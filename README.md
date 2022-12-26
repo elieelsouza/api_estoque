@@ -1,4 +1,4 @@
-# estoque_cenco_server
+# estoque_api_server
 
 Rotas da API:
 // Consulta todos os itens contidos em estoque
