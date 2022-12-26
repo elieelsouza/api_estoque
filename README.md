@@ -2,33 +2,33 @@
 
 Rotas da API:
 // Consulta todos os itens contidos em estoque
-B034901NT145:8080/api/estoque
+127.0.0.1:8080/api/estoque
 
 //Consulta todos os tipos peças cadastrados no banco
-B034901NT145:8080/api/tipospecas		
+127.0.0.1:8080/api/tipospecas		
 
 //Consulta todas as marcas cadastradas no banco
-B034901NT145:8080/api/marcas
+127.0.0.1:8080/api/marcas
 
 //Consulta todas os modelos cadastrados no banco de dados 
-B034901NT145:8080/api/modelos		
+127.0.0.1:8080/api/modelos		
 
 //Cadastra um tipo de peça banco
-B034901NT145:8080/api/add/tipo
+127.0.0.1:8080/api/add/tipo
 	Exemplo JSON:
 		{
 			"value": "Celular"
 		}
 
 //Cadastra uma marca no banco de dados
-B034901NT145:8080/api/add/marca	
+127.0.0.1:8080/api/add/marca	
 	Exemplo JSON:
 		{
 			"value": "Phillips"
 		}
 		
 //Cadastra um modelo em estoque
-B034901NT145:8080/api/add/modelo
+127.0.0.1:8080/api/add/modelo
 	Exemplo JSON:
 		{
 			"id-tipo-produto": 1,
@@ -38,7 +38,7 @@ B034901NT145:8080/api/add/modelo
 		}
 		
 //Cadastra uma peça no estoque
-B034901NT145:8080/api/add/pecaestoque
+127.0.0.1:8080/api/add/pecaestoque
 	Exemplo JSON:
 		{
 			"notaFiscal": "6756324789563",
